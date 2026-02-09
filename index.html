@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   <body>
+
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="./images/istockphoto-1467962708-640_adpp_is.mp4" type="video/mp4">
+  </video>
+
+  <div class="wrap">
+    <!-- search hissən burada -->
+  </div>
+
+</body>
+
+    <main class="page">
+      <section class="card">
+        <h1 class="title">Movie Search</h1>
+
+        <div class="search">
+          <input
+            id="searchInput"
+            class="search__input"
+            type="text"
+            placeholder=""
+            autocomplete="off"
+          />
+          <button id="searchBtn" class="search__btn" type="button">
+            Search
+          </button>
+        </div>
+
+        <p id="status" class="status" aria-live="polite"></p>
+
+        <!-- Nəticələr: əvvəl gizlidir -->
+        <div id="results" class="results hidden">
+          <div id="grid" class="grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
